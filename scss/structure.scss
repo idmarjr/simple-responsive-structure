@@ -1,0 +1,42 @@
+/******************************************************************************/
+/* Default declaration */
+/******************************************************************************/
+
+body {
+	font-size: 10pt;
+	font-family: Helvetica, sans-serif;
+}
+
+/******************************************************************************/
+/* .wrapper */
+/******************************************************************************/
+.wrapper {
+	position: relative;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.wrapper.mw500 {max-width: 500px;}
+.wrapper.mw930 {max-width: 930px;}
+
+/******************************************************************************/
+/* .mainContent */
+/******************************************************************************/
+.mainContent {padding: 20px 0;}
+
+.mainContent h2,
+.mainContent h3,
+.mainContent h4,
+.mainContent h5,
+.mainContent h6 {font-weight: 200;}
+
+.mainContent h2 {font-size: 2em;}
+.mainContent h3 {font-size: 1.8em;}
+.mainContent h4 {font-size: 1.6em;}
+.mainContent h5 {font-size: 1.4em;}
+.mainContent h6 {font-size: 1.2em;}
+
+/******************************************************************************/
+/* .content */
+/******************************************************************************/
+.content header {margin-bottom: 20px;}

@@ -1,0 +1,8 @@
+/*********************************************************************/
+/* Screens > 1024px */
+/*********************************************************************/
+@media only screen and (min-width: 1025px) {
+	@import 'mainHeader1024.scss';
+	@import 'widgetGrid1024.scss';
+//End @media only screen and (min-width: 768px)
+}

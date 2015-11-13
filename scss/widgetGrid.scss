@@ -1,0 +1,16 @@
+/******************************************************************************/
+/* .widgetGrid */
+/******************************************************************************/
+.widgetGrid .widget {
+	padding: 20px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 1px rgba(0,100,200, 0.3);
+}
+
+/***************************************************************/
+/* .widgetContent */
+/***************************************************************/
+.widgetContent p {line-height: 1.3em;}
+.widgetContent p:not(:last-child) {margin-bottom: 10px;}

@@ -1,0 +1,36 @@
+/******************************************************************************/
+/* .mainHeader */
+/******************************************************************************/
+.mainHeader {background-color: rgba(0,0,0, 0.3);}
+
+.mainHeader h1 {
+	padding: 20px 20px 20px 0;
+	border-bottom: 1px solid rgba(0,0,0, 0.3);
+	font-size: 2em;
+	font-weight: 100;
+	text-align: center;
+	cursor: default;
+}
+
+.mainHeader > .wrapper {padding: 0;}
+
+/******************************************************************************/
+/* .mainNav */
+/******************************************************************************/
+.mainNav a,
+.mainNav .submenu > span {
+	display: block;
+	padding: 25px 20px;
+	font-size: 1.2em;
+	font-weight: 200;
+	text-align: center;
+	color: rgba(0,0,0, 0.9);
+}
+
+.mainNav a:hover,
+.mainNav .submenu > span:hover {
+	text-decoration: none;
+	background-color: rgba(0,0,0, 0.2);
+}
+
+.submenu > nav {display: none;}
