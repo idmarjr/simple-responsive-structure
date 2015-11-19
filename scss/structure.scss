@@ -14,6 +14,7 @@ body {
 	position: relative;
 	padding: 0 20px;
 	margin: 0 auto;
+	@extend .cf;
 }
 
 .wrapper.mw500 {max-width: 500px;}
