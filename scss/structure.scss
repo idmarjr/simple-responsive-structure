@@ -12,13 +12,15 @@ body {
 /******************************************************************************/
 .wrapper {
 	position: relative;
-	padding: 0 20px;
 	margin: 0 auto;
 	@extend .cf;
 }
 
 .wrapper.mw500 {max-width: 500px;}
 .wrapper.mw930 {max-width: 930px;}
+
+.mainContent .wrapper,
+.mainFooter .wrapper {padding: 0 20px;}
 
 /******************************************************************************/
 /* .mainContent */

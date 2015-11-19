@@ -1,7 +1,9 @@
 /******************************************************************************/
 /* .mainHeader */
 /******************************************************************************/
-.mainHeader {background-color: rgba(0,0,0, 0.3);}
+.mainHeader {
+	background-color: rgba(0,0,0, 0.3);
+}
 
 .mainHeader h1 {
 	padding: 20px 20px 20px 0;
@@ -11,8 +13,6 @@
 	text-align: center;
 	cursor: default;
 }
-
-.mainHeader > .wrapper {padding: 0;}
 
 /******************************************************************************/
 /* .mainNav */
