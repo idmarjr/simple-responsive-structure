@@ -21,3 +21,27 @@
 	float: left;
 	border-right: 1px solid rgba(0,0,0, 0.3);
 }
+
+/******************************************************************************/
+/* .mainNav */
+/******************************************************************************/
+.mainNav a,
+.mainNav .submenu > span {border-bottom: 0 solid transparent;}
+
+/***************************************************************/
+/* .submenu */
+/***************************************************************/
+.submenu > nav {
+	position: absolute;
+	top: 100%;
+	left: -1px;
+	border: 1px solid rgba(0,0,0, 0.2);
+	background-color: rgba(#8f8f8f, 1);
+	z-index: 10;
+}
+
+.submenu nav a,
+.submenu nav span {
+	padding: 25px 20px;
+	border: 0 solid transparent;
+}

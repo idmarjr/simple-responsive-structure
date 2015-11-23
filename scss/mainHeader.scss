@@ -6,8 +6,8 @@
 }
 
 .mainHeader h1 {
-	padding: 20px 20px 20px 0;
-	border-bottom: 1px solid rgba(0,0,0, 0.3);
+	padding: 19px 20px 19px 0;
+	border-bottom: 1px solid rgba(0,0,0, 0.5);
 	font-size: 2em;
 	font-weight: 100;
 	text-align: center;
@@ -25,6 +25,7 @@
 	font-weight: 200;
 	text-align: center;
 	color: rgba(0,0,0, 0.9);
+	border-bottom: 1px solid rgba(0,0,0, 0.3);
 }
 
 .mainNav a:hover,
@@ -33,4 +34,25 @@
 	background-color: rgba(0,0,0, 0.2);
 }
 
-.submenu > nav {display: none;}
+/***************************************************************/
+/* .submenu */
+/***************************************************************/
+.submenu {position: relative;}
+
+.submenu nav {
+	overflow: hidden;
+	height: 0;
+	min-width: calc(100% + 3px);
+}
+
+.submenu nav a,
+.submenu nav span {
+	width: 100%;
+	padding-left: 60px;
+}
+
+/***************************************************************/
+/* .submenu.active */
+/***************************************************************/
+.submenu nav {height: auto;}
+.submenu.active > span {background-color: rgba(0,0,0, 0.2)}
